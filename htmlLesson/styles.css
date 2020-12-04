@@ -1,0 +1,68 @@
+
+/* GENERAL SETUP CSS*/
+html, body {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 10px;
+    background: linear-gradient(130deg, rgb(218, 151, 18) 0%, rgb(0, 0, 0) 50%, rgb(255, 255, 255) 100%);
+}
+body {
+    height: 125vh;
+    width: 80vw;
+    margin: 0 auto;
+}
+/* HEADER LAYOUT */
+ header {
+    margin-bottom: 10px;
+}
+header, nav, section, main, article, aside, footer {
+    background-color: rgba(160, 127, 18, 0.5);
+    padding: 1%
+}
+
+nav{
+    height: 50px;
+}
+nav ul{
+    display:flex;
+}
+nav li{
+    list-style-type: none;
+    text-align: center;
+    flex: 1;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+/* MAIN LAYOUT*/
+main{
+    display:flex;
+}
+
+section, article {
+     flex:1;
+}
+
+aside{
+    flex:1;
+
+}
+aside a {
+    float: left;
+    width: 50%;
+}
+
+aside img {
+    max-width: 100%;
+}
+
+section{
+    margin-top: 10px;
+}
+/* FOOTER*/
+footer{
+    margin-top: 10px;
+}
+
